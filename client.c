@@ -44,7 +44,7 @@ int main()
         read(fd, arr1, sizeof(arr1));
 
         // Print the read message
-        printf("%ld %s\n\n", strlen(arr1), arr1);
+        printf("%s\n\n", arr1);
         close(fd);
     }
     return 0;
