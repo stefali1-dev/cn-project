@@ -10,9 +10,9 @@
 --- 
 
 The protocol includes the following commands:
-  - **login : <username>** - the list of accepted usernames is found in "users.txt"
+  - **login : <­username>** - the list of accepted usernames is found in "users.txt"
   - **get-logged-users** - displays information (username, hostname for remote login, time entry was made) about users logged into the operating system; the user must be logged in to use this command
-  - **get-proc-info : <pid>** - displays information (name, state, ppid, uid, vmsize) about the indicated process; the user must be logged in to use this command
+  - **get-proc-info : <­pid>** - displays information (name, state, ppid, uid, vmsize) about the indicated process; the user must be logged in to use this command
   - **logout** - logs the client out
   - **quit**
   - **help**
